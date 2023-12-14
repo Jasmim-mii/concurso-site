@@ -13,7 +13,7 @@
       </div>
       <div class="list_menu" v-show="menu">
         <li class="menu">
-          <a class="menu_link" href="#">Incicio </a>
+          <a class="menu_link" href="https://centraldoconcurso.com.br">Incicio </a>
         </li>
         <li class="menu">
           <a class="menu_link" href="https://centraldoconcurso.com.br/#card">Cursos </a>
