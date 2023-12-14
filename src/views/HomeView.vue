@@ -70,7 +70,7 @@
               <p class="price">
                 R$ {{ i.price }}
                 <span class="little-price"
-                  >R$ <s>{{ i.free }}</s></span
+                  ><s>{{ i.free }}</s></span
                 >
               </p>
               <p class="salary">Faixa salarial: {{ i.salary }}</p>
