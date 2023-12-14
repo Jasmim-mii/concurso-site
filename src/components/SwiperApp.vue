@@ -9,7 +9,7 @@
     >
       <swiper-slide class="imagepoliciafederal">
         <div class="slidepoliciafederalcontainer">
-          <h2 class="title-color">Estude Para Policial Federal ou Civil</h2>
+          <h2 class="title-color">Estude Para Policial Federal</h2>
           <h3 class="subtitle-home">Com quem mais tem alunos aprovados em todo brasil</h3>
           <div class="bottons">
             <btn-app
