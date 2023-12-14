@@ -13,20 +13,20 @@
       </div>
       <div class="list_menu" v-show="menu">
         <li class="menu">
-          <a class="menu_link" href="#"><router-link to="/">Incicio</router-link> </a>
+          <a class="menu_link" href="#">Incicio </a>
         </li>
         <li class="menu">
-          <a class="menu_link" href="#card"><router-link to="/">Cursos</router-link> </a>
+          <a class="menu_link" href="https://centraldoconcurso.com.br/#card">Cursos </a>
         </li>
         <li class="menu">
-          <a class="menu_link" href="#faq"
-            ><router-link to="/">Duvidas Frequentes</router-link>
+          <a class="menu_link" href="https://centraldoconcurso.com.br/#faq"
+            >Duvidas Frequentes
           </a>
         </li>
         <li class="menu">
-          <a class="menu_link" href="#contact"
-            ><router-link to="/">contato</router-link>
-          </a>
+          <a class="menu_link" href="https://centraldoconcurso.com.br/#contact"
+            >Contato</a
+          >
         </li>
       </div>
     </nav>
