@@ -13,16 +13,20 @@
       </div>
       <div class="list_menu" v-show="menu">
         <li class="menu">
-          <a class="menu_link" href="#">Incicio </a>
+          <a class="menu_link" href="#"><router-link to="/">Incicio</router-link> </a>
         </li>
         <li class="menu">
-          <a class="menu_link" href="#card">Cursos </a>
+          <a class="menu_link" href="#card"><router-link to="/">Cursos</router-link> </a>
         </li>
         <li class="menu">
-          <a class="menu_link" href="#faq">Duvidas Frequentes </a>
+          <a class="menu_link" href="#faq"
+            ><router-link to="/">Duvidas Frequentes</router-link>
+          </a>
         </li>
         <li class="menu">
-          <a class="menu_link" href="#contact">Contato</a>
+          <a class="menu_link" href="#contact"
+            ><router-link to="/">contato</router-link>
+          </a>
         </li>
       </div>
     </nav>
