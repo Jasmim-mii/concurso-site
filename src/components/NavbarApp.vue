@@ -7,11 +7,8 @@
       </a>
     </div>
 
-    <nav id="navbar" class="navbar">
-      <div class="btn-menu" @click="showMenu">
-        <Icon icon="eva:menu-2-fill" color="white" />
-      </div>
-      <div class="list_menu" v-show="menu">
+    <nav class="navbar">
+      <div class="lista">
         <li class="menu">
           <a class="menu_link" href="https://centraldoconcurso.com.br">Incicio </a>
         </li>
@@ -29,6 +26,31 @@
           >
         </li>
       </div>
+      <div class="btn-menu" @click="isActive = !isActive">
+        <Icon icon="eva:menu-2-fill" color="white" />
+      </div>
+      <div class="list_menu" v-show="isActive">
+        <div class="toggle" :class="{ hidden: isActive }">
+          <li class="menu">
+            <a class="menu_link hidden" href="https://centraldoconcurso.com.br"
+              >Incicio
+            </a>
+          </li>
+          <li class="menu">
+            <a class="menu_link" href="https://centraldoconcurso.com.br/#card">Cursos </a>
+          </li>
+          <li class="menu">
+            <a class="menu_link" href="https://centraldoconcurso.com.br/#faq"
+              >Duvidas Frequentes
+            </a>
+          </li>
+          <li class="menu">
+            <a class="menu_link" href="https://centraldoconcurso.com.br/#contact"
+              >Contato</a
+            >
+          </li>
+        </div>
+      </div>
     </nav>
   </header>
 </template>
@@ -39,13 +61,14 @@ export default {
   components: { Icon },
   data() {
     return {
-      menu: true,
+      // menu: true,
+      isActive: false,
     };
   },
   methods: {
-    showMenu() {
-      this.menu = !this.menu;
-    },
+    // showMenu() {
+    //   this.menu = !this.menu;
+    // },
   },
 };
 </script>
@@ -67,10 +90,18 @@ export default {
   .btn-menu {
     display: none;
   }
+  .hidden {
+    visibility: visible;
+  }
   .navbar {
     display: flex;
     justify-content: center;
     gap: 2rem;
+    .lista {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+    }
     @media screen and (max-width: 854px) {
       .btn-menu {
         z-index: 4;
@@ -78,11 +109,15 @@ export default {
         display: block;
         cursor: pointer;
         margin: 0.7rem 0;
+        position: fixed;
+      }
+      .lista {
+        display: none;
       }
     }
 
     .list_menu {
-      display: flex;
+      display: none;
       justify-content: center;
       gap: 2rem;
       @media screen and (max-width: 854px) {
