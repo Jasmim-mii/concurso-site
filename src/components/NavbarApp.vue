@@ -104,8 +104,12 @@ export default {
     }
     @media screen and (max-width: 854px) {
       .btn-menu {
+        background: #000;
+        padding: 1rem;
         z-index: 4;
+        top: 0;
         font-size: 1.5rem;
+        border-radius: 0.5rem;
         display: block;
         cursor: pointer;
         margin: 0.7rem 0;
