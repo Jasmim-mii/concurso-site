@@ -27,9 +27,11 @@
         &copy;2023 centraldoconcurso.com
         <a href=""> - Todos os direitos são reservados</a>
       </h5>
-      <p class="info-text center">
+      <p class="center">
         Criado por
-        <a target="_blank" href="https://michelejasmim.vercel.app/">michele jasmim </a>
+        <a target="_blank" class="created" href="https://michelejasmim.vercel.app/"
+          >michele jasmim
+        </a>
       </p>
     </div>
     <div id="afiliado">
@@ -53,12 +55,12 @@ export default {};
   width: 95%;
   background: #000;
   gap: 1rem;
-  position: fixed;
   bottom: 0;
   z-index: 0;
   padding: 2rem 3rem;
   @media screen and (max-width: 654px) {
     display: block;
+    position: none;
     max-width: 100%;
     padding: 2rem 2rem;
   }
@@ -67,6 +69,7 @@ export default {};
     width: 50%;
     @media screen and (max-width: 954px) {
       width: 20rem;
+      text-align: center;
     }
 
     h3 {
@@ -84,6 +87,9 @@ export default {};
       color: #eee;
       font-size: 0.8rem;
       font-weight: 600;
+      @media screen and (max-width: 954px) {
+        text-align: center;
+      }
     }
     .footer-icon {
       display: flex;
@@ -100,29 +106,28 @@ export default {};
   }
   .terms {
     color: #cacaca;
-    text-align: center;
     @media screen and (max-width: 954px) {
       width: 20rem;
       font-size: 0.8rem;
+      padding: 1rem 0;
+      text-align: center;
     }
     a {
       color: #eeee;
     }
     .center {
-      text-align: center;
       font-size: 0.8rem;
       color: #eee;
       margin-top: 1rem;
+      text-align: center;
+
+      a {
+        color: #0a7298;
+        font-weight: 600;
+      }
 
       @media screen and (max-width: 954px) {
-        text-align: left;
-      }
-      a {
-        font-weight: 600;
-        transition: 0.2s;
-        &:hover {
-          color: #0a7298;
-        }
+        text-align: center;
       }
     }
   }
@@ -130,16 +135,9 @@ export default {};
     width: 100%;
     text-align: center;
 
-    .info-text {
-      color: #eee;
-      font-size: 1.1em;
-      padding-bottom: 1rem;
-      font-weight: 600;
-    }
     .img-afiliado {
       margin: 0 auto;
       width: 100%;
-      height: 5rem;
     }
   }
 }

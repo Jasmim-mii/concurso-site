@@ -340,6 +340,7 @@ a {
       img {
         width: 100%;
         height: 20rem;
+        border-radius: 0.5rem 0.5rem 0 0;
       }
       &:hover {
         box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.363);
@@ -524,7 +525,6 @@ a {
 .contact {
   position: relative;
   background: #eee;
-  margin-bottom: 15rem;
   padding: 3rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
