@@ -15,7 +15,7 @@
   </div>
   <div class="container">
     <form action="https://api.staticforms.xyz/submit" method="post">
-      <input type="hidden" name="redirectTo" value="http://localhost:8080/" />
+      <input type="hidden" name="redirectTo" value="https://centraldoconcurso.com.br/" />
       <input
         type="hidden"
         name="accessKey"
