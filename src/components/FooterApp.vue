@@ -48,6 +48,15 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
+.info-text {
+  color: #eee;
+  font-size: 0.8rem;
+  font-weight: 600;
+  @media screen and (max-width: 954px) {
+    text-align: center;
+  }
+}
+
 #footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -81,14 +90,6 @@ export default {};
       a {
         color: #eee;
         font-size: 1rem;
-      }
-    }
-    .info-text {
-      color: #eee;
-      font-size: 0.8rem;
-      font-weight: 600;
-      @media screen and (max-width: 954px) {
-        text-align: center;
       }
     }
     .footer-icon {
