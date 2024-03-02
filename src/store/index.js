@@ -36,7 +36,7 @@ export default createStore({
         vagas: " A definir vagas ",
         prova: "A definir",
         category: "Nível médio / superior",
-        salary: "R$10.790,00 a R$18.042,00",
+        salary: "R$10.790,00 até R$18.042,00",
         link: "https://pay.hotmart.com/G70336416S?sck=HOTMART_PRODUCT_PAGE&off=smk0k3pd&hotfeature=32&_gl=1*ffylre*_ga*MTEzNDQwMTkzOC4xNjg4NTY3NzQx*_ga_GQH2V1F11Q*MTcwMTI5MjMyMy40My4xLjE3MDEyOTI5NzguNjAuMC4w*_ga_RD9QTHRLPL*MTcwMTI5MjM0My4xMy4xLjE3MDEyOTI5NzkuNjAuMC4w*_ga_TWSDR7HH6D*MTcwMTI5MjM0My42LjEuMTcwMTI5Mjk4MC42MC4wLjA.",
         cardModal: [
           {
