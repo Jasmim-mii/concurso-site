@@ -61,7 +61,6 @@ export default {};
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
-  width: 95%;
   background: #000;
   gap: 1rem;
   bottom: 0;

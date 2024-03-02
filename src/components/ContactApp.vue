@@ -103,7 +103,6 @@ export default {
   /* z-index: 0; */
   @media screen and (max-width: 954px) {
     width: 85%;
-    position: relative;
   }
 }
 .container {
