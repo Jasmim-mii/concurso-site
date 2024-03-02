@@ -339,7 +339,7 @@ a {
       }
       img {
         width: 100%;
-        height: 20rem;
+        height: 13rem;
         border-radius: 0.5rem 0.5rem 0 0;
       }
       &:hover {
