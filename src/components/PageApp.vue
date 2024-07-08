@@ -51,11 +51,6 @@ export default {
   transition: opacity 0.3s ease;
 }
 
-.modal-wrapper {
-  /* display: table-cell;
-  vertical-align: middle; */
-}
-
 .modal-container {
   width: 100%;
   height: 90vh;

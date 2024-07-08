@@ -65,7 +65,7 @@ export default {
 }
 
 .card-slot-hide {
-  background: #c4c4c46e;
+  background: #2323236e;
   z-index: 99;
   padding: 1rem 2rem;
 }

@@ -307,6 +307,15 @@ a {
         padding: 1rem;
         .modal-title {
           cursor: pointer;
+          color: #074d66;
+
+          &:visited {
+            color: red;
+          }
+
+          &:active {
+            color: #0a9dd2;
+          }
         }
         .salary {
           margin-top: 1rem;
@@ -420,9 +429,9 @@ a {
         position: fixed;
         right: 9rem;
         padding: 2rem;
-        top: 11rem;
-        width: 17rem;
-        height: 29rem;
+        top: 4.5rem;
+        width: 13rem;
+        height: 9rem;
         background: rgba(0, 0, 0, 0.5);
         border-radius: 0.5rem;
         backdrop-filter: blur(2rem);
@@ -440,7 +449,7 @@ a {
           margin-bottom: 2rem;
           img {
             width: 100%;
-            height: 10rem;
+            height: 8rem;
           }
         }
         .description-modal {

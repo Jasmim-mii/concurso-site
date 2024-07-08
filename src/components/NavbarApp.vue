@@ -10,7 +10,7 @@
     <nav class="navbar">
       <div class="lista">
         <li class="menu">
-          <a class="menu_link" href="https://centraldoconcurso.com.br">Incicio </a>
+          <a class="menu_link" href="https://centraldoconcurso.com.br">Inicio </a>
         </li>
         <li class="menu">
           <a class="menu_link" href="https://centraldoconcurso.com.br/#card">Cursos </a>
@@ -76,14 +76,14 @@ export default {
 <style lang="scss" scoped>
 #header {
   position: relative;
-  background: #000;
+  background: #d8d8d8;
   padding: 2rem 3rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 2rem;
   a {
-    color: #fff;
+    color: #1f1f1f;
     display: block;
     font-size: 1rem;
   }
@@ -136,7 +136,7 @@ export default {
         height: 60%;
         width: 60%;
         text-align: center;
-        background: rgba(0, 0, 0, 0.5);
+        background: rgba(43, 43, 43, 0.5);
       }
     }
 
@@ -147,8 +147,13 @@ export default {
     }
 
     .menu_link {
-      color: #d8d8d8;
+      color: #4e4e4e;
       position: relative;
+      font-weight: 700;
+      font-size: 1.1rem;
+      @media screen and (max-width: 854px) {
+        color: #000000;
+      }
 
       &::after {
         content: "";

@@ -164,14 +164,15 @@ export default {
       }
     }
   }
+
   .popup-card {
-    position: fixed;
     right: 9rem;
-    padding: 2rem;
-    top: 11rem;
-    width: 17rem;
-    height: 29rem;
-    background: rgba(0, 0, 0, 0.6);
+    top: 7rem;
+    padding: 1.5rem;
+    width: 13rem;
+    position: fixed;
+    height: 9rem;
+    background-color: rgba(0, 0, 0, 0.6);
     border-radius: 0.5rem;
     display: table;
     backdrop-filter: blur(2rem);
@@ -188,17 +189,17 @@ export default {
       margin-bottom: 2rem;
       img {
         width: 100%;
-        height: 20rem;
+        height: 10rem;
       }
     }
     .description-modal {
       margin-bottom: 1.5rem;
       .title-buy-modal {
-        font-size: 1.2rem;
+        font-size: 1rem;
       }
       p {
         color: #fff;
-        font-size: 1rem;
+        font-size: 0.9rem;
         padding-bottom: 0.8rem;
         font-weight: 600;
         span {

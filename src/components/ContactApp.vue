@@ -10,7 +10,7 @@
     </div>
     <div class="card-contact">
       <span><Icon class="icon" icon="gg:phone" /></span>
-      <p>21-9985522</p>
+      <p>21-980320442</p>
     </div>
   </div>
   <div class="container">

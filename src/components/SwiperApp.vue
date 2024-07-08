@@ -178,9 +178,10 @@ section {
     .imagepoliciafederal {
       background-image: url("../assets/home.png");
       background-repeat: no-repeat;
-      width: 100%;
-      background-position-y: bottom;
-      background-position-x: right;
+      // width: 100%;
+      background-size: cover;
+      background-position-y: center bottom;
+      // background-position: center;
       @media screen and (max-width: 600px) {
         background: rgb(6, 76, 102);
         background: linear-gradient(0deg, rgba(6, 76, 102, 1) 0%, rgb(0, 0, 0) 100%);
